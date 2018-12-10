@@ -1,0 +1,6 @@
+[package]
+name = "AxisAndAllies"
+version = "0.1.0"
+authors = ["Samuel Carlson <samwise.carlson@gmail.com>"]
+
+[dependencies]
