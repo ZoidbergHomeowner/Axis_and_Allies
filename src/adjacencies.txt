@@ -1,0 +1,44 @@
+"Eastern Canada" "Western Canada" "Central United States" "Eastern United States" 1 9
+"Western Canada" "Alaska" "Western United States" 64
+"Australia" 46 40 38 39
+"New Zealand" 41
+"India" "French Indo-China" "Persia" 35
+"Ceylon" 35
+"Persia" "India" "Trans-Jordan" 34
+"Trans-Jordan" "Persia" "Anglo-Egypt Sudan" 34 15
+"Anglo-Egypt Sudan" "Trans-Jordan" "Italian East Africa" "French Equatorial Africa" "Belgian Congo" "Libya" 15 34
+"Italian East Africa" "Anglo-Egypt Sudan" "Rhodesia" "Belgian Congo" 34
+"Rhodesia" "Italian East Africa" "Belgian Congo" "Union of South Africa" 33
+"French Madagascar" 33 32 29 28
+"Union of South Africa" "Rhodesia" 27 28
+"Belgian Congo" "French Equatorial Africa" "Anglo-Egypt Sudan" "Italian Congo" "Rhodesia" 23
+"French Equatorial Africa" "French West Africa" "Anglo-Egypt Sudan" "Belgian Congo" 23
+"French West Africa" "French Equatorial Africa" 17
+"Gibraltor" "Morocco Algeria" 13 12
+"United Kingdom" 7 8 6 3 2
+"Iceland" 2
+"Azores" 11
+
+"Central United States" "Eastern United States" "Eastern Canada" "Western United States" 10
+"Eastern United States" "Eastern Canada" "Central United States" 10
+"Panama" "Central United States" "Venezuela" 10 19 20
+"West Indies" 19
+"Brazil" 18 22
+"Greenland" 2
+"Western United States" "Mexico" "Western Canada" 55 54
+"Alaska" "Western Canada" 63 64
+"Mexico" "Panama" "Western United States" 54
+"Midway" 56
+"Hawaiian Islands" 52
+"Sinkiang" "China" "Kazakh S. S. R." "Novosibirsk"
+"China" "Sinkiang" "Manchuria" "Kwangtung" "French Indo-China"
+
+"France" "Germany" "Italy" 6 7 5 13
+"Germany" "France" "Italy" "Balkans" "Eastern Europe" 5
+"Italy" "France" Germany" "Balkans" 14
+"Balkans" "Italy" "Germany" "Eastern Europe" "Ukraine S. S. R." 16
+"Eastern Europe" "Belorussia" "Ukraine S. S. R." "Balkans" "Germany" "Karelia S. S. R." 5
+"Norway" "Finland" 3 6 5
+"Finland" "Norway" "Karelia S. S. R." 3 5
+"Ukraine S. S. R." "Balkans" "Eastern Europe" "Belorussia" "West Russia" "Caucasus" 16
+"Belorussia" "Karelia S. S. R." "West Russia" "Eastern Europe" "Ukraine S. S. R."

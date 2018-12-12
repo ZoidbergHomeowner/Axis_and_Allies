@@ -1,10 +1,10 @@
 #[derive(Copy, Clone)]
 pub enum Nations {
     USA,
-    Germany,
-    UK,
-    SovietUnion,
     Japan,
+    SovietUnion,
+    UK,
+    Germany,
     Neutral,
 }
 
@@ -16,5 +16,16 @@ pub fn name(x: Nations) -> &'static str {
         Nations::SovietUnion => "Soviet Union",
         Nations::Japan => "Japan",
         Nations::Neutral => "Neutral",
+        _ => "Unkown",
+    }
+}
+pub fn parse(x: &str) -> Nations {
+    match x {
+        "USA" => Nations::USA,
+        "Japan" => Nations::Japan,
+        "Soviet Union" => Nations::SovietUnion,
+        "UK" => Nations::UK,
+        "Germany" => Nations::Germany,
+        _ => Nations::Neutral,
     }
 }

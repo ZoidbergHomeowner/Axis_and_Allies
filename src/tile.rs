@@ -3,7 +3,7 @@ use nations::Nations;
 
 pub enum TileType {
     Land(LandTile),
-    //Water(WaterTile),
+    Water(WaterTile),
 }
 
 pub struct LandTile {    
@@ -16,29 +16,14 @@ impl LandTile {
     pub fn new(name: String, major_city: String, adjacencies: Vec<TileType>, owner: Nations) -> Self {
         LandTile { name: name, major_city: major_city, adjacencies: adjacencies, owner: owner }
     }
-    /*pub fn new_owner(name: String, major_city: String, adjacencies: Vec<TileType>, owner: Nations) -> Self {
-        LandTile { name: name, major_city: major_city, adjacencies: adjacencies, owner: owner }
-    }*/
-
-    pub fn to_string(&self) -> String {
-        String::from(nations::name(self.owner.clone()))
-    }
 }
-/*
+
 pub struct WaterTile {
-    pub adjacencies: Vec<Tile>,
     pub number: u8,
+    pub adjacencies: Vec<TileType>,    
 }
-
-pub trait WaterTile {
-   // fn new(number: u8) -> Self;
-    fn to_string(&self) -> String {
-        String::new()
+impl WaterTile {
+    pub fn new(number: u8, adjacencies: Vec<TileType>) -> Self {
+        WaterTile { number: number, adjacencies: adjacencies }
     }
 }
-
-impl WaterTile {
-    /*fn new(number: u8) -> WaterTile {
-
-    }*/
-}*/
