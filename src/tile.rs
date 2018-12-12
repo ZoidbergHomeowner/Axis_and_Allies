@@ -13,17 +13,15 @@ pub struct LandTile {
     pub adjacencies: Vec<TileType>,
 }
 impl LandTile {
-    pub fn new(name: String, major_city: String, adjacencies: Vec<TileType>) -> Self {
-        LandTile { name: name, major_city: major_city, adjacencies: adjacencies, owner: Nations::Neutral }
-    }
-    pub fn new_owner(name: String, major_city: String, adjacencies: Vec<TileType>, owner: Nations) -> Self {
+    pub fn new(name: String, major_city: String, adjacencies: Vec<TileType>, owner: Nations) -> Self {
         LandTile { name: name, major_city: major_city, adjacencies: adjacencies, owner: owner }
     }
+    /*pub fn new_owner(name: String, major_city: String, adjacencies: Vec<TileType>, owner: Nations) -> Self {
+        LandTile { name: name, major_city: major_city, adjacencies: adjacencies, owner: owner }
+    }*/
 
     pub fn to_string(&self) -> String {
-        let mut output = String::new();
-        output.push_str(nations::name(self.owner));
-        output
+        String::from(nations::name(self.owner.clone()))
     }
 }
 /*
