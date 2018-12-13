@@ -1,4 +1,4 @@
-UK:
+:UK
 "Eastern Canada" 3
 "Western Canada" 1
 "United Kingdom" 8 "London"
@@ -20,7 +20,7 @@ UK:
 "Azores" 0
 "Iceland" 0
 
-USA:
+:USA
 "Central United States" 6
 "Eastern United States" 12 "Washington"
 "Panama" 1
@@ -35,7 +35,7 @@ USA:
 "Hawaiian Islands" 1 "Honolulu"
 "Greenland" 0
 
-Germany:
+:Germany
 "France" 6 "Paris"
 "Italy" 6 "Rome"
 "Corsica" 0
@@ -53,7 +53,7 @@ Germany:
 "Norway" 3
 "Finland" 1
 
-Russia:
+:Soviet Union
 "Karelia S. S. R." 2 "Leningrad"
 "Archangel" 2
 "Russia" 8 "Moscow"
@@ -65,7 +65,7 @@ Russia:
 "Buryatia S. S. R." 1
 "Soviet Far East" 1
 
-Japan:
+:Japan
 "Manchuria" 3
 "Kwangtung" 3 "Shanghai"
 "French Indo-China" 3
@@ -78,8 +78,9 @@ Japan:
 "East Indies" 4
 "New Guinea" 1
 "Solomon Islands" 0
+"Formosa" 0
 
-Neutral:
+:Neutral
 Venezuela
 Peru
 Argentina

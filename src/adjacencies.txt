@@ -42,3 +42,35 @@
 "Finland" "Norway" "Karelia S. S. R." 3 5
 "Ukraine S. S. R." "Balkans" "Eastern Europe" "Belorussia" "West Russia" "Caucasus" 16
 "Belorussia" "Karelia S. S. R." "West Russia" "Eastern Europe" "Ukraine S. S. R."
+"West Russia" "Belorussia" "Ukraine S. S. R." "Karelia S. S. R." "Archangel" "Russia" "Caucasus"
+"Morocco Algeria" "Libya" "Gibraltor" 13 12
+"Libya" "Morocco Algeria" "Anglo-Egypt Sudan" 14
+"Corsica" 14
+"Sardinia" 14
+"Sicily" 14
+"Malta" 14
+
+"Karelia S. S. R." "Finland" "Archangel" "West Russia" "Belorussia" "Eastern Europe" 4 5
+"Archangel" "Karelia S. S. R." "Russia" "West Russia" 4
+"Russia" "Archangel" "Evenki National Okrug" "Novosibirsk" "Kazakh S. S. R." "Caucasus" "West Russia"
+"Caucasus" "Persia" "Kazakh S. S. R." "Russia" "Ukraine S. S. R." "West Russia" 16
+"Kazakh S. S. R." "Caucasus" "Persia" "Sinkiang" "Novosibirsk"
+"Novosibirsk" "Kazakh S. S. R." "Sinkiang" "Russia" "Evenki National Okrug" "Yakut S. S. R."
+"Evenki National Okrug" "Russia" "Novosibirsk" "Yakut S. S. R."
+"Yakut S. S. R." "Evenki National Okrug" "Buyatia S. S. R." "Soviet Far East"
+"Buyatia S. S. R." "Yakut S. S. R." "Soviet Far East" "Manchuria" 60
+"Soviet Far East" "Yakut S. S. R." "Buryatia S. S. R." 62
+
+"Japan" 61 60
+"Wake Island" 51
+"Okinawa" 58
+"Caroline Islands" 50
+"Solomon Islands" 45
+"New Guinea" 47
+"Philippine Islands" 49
+"Borneo" 48
+"East Indies" 37
+"French Indo-China" "India" "Kwangtung" "China" 36
+"Kwangtung" "Manchuria" "French Indo-China" "China" 59
+"Formosa" 59
+"Manchuria" "Buryatia S. S. R." "China" "Kwangtung" 61
