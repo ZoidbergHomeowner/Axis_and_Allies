@@ -1,3 +1,5 @@
+extern crate regex;
+
 mod tile;
 mod nations;
 mod player;
@@ -9,6 +11,7 @@ use std::{
     io::{prelude::*, BufReader},
     path::Path,
 };
+use regex::Regex;
 use nations::Nations;
 use player::Player;
 
@@ -38,7 +41,8 @@ where P: AsRef<Path>
             println!("{}", nations::name(cur_nation));
         }
         else {
-            
+            let r = Regex ::new(r""\w"").unwrap();
+            println!("{:?}", r.is_match(&line));
         }
     }
 }
