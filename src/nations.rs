@@ -1,4 +1,4 @@
-#[derive(Copy, Clone)]
+#[derive(Clone, Hash, Eq, PartialEq)]
 pub enum Nations {
     USA,
     Japan,
@@ -22,10 +22,10 @@ pub fn is_allies(x: Nations) -> bool {
         Nations::UK => true,
         _ => false
     }
-}
+}/*
 pub fn same_team(x: Nations, y: Nations) -> bool {
     (is_allies(x) && is_allies(y)) || (is_axis(x) && is_axis(y))
-}
+}*/
 
 pub fn name(x: Nations) -> &'static str {
     match x {
