@@ -1,7 +1,7 @@
 :UK
 "Eastern Canada" 3
 "Western Canada" 1
-"United Kingdom" 8 &London
+"United Kingdom" 8 "London"
 "Gibraltor" 0
 "French West Africa" 1
 "French Equatorial Africa" 1
@@ -13,37 +13,37 @@
 "Anglo-Egypt Sudan" 2
 "Trans-Jordan" 1
 "Persia" 1
-"India" 3 &Calcutta
+"India" 3 "Calcutta"
 "Ceylon" 0
-"Australia" 2 &Sydney
+"Australia" 2 "Sydney"
 "New Zealand" 1
 "Azores" 0
 "Iceland" 0
 
 :USA
 "Central United States" 6
-"Eastern United States" 12 &Washington
+"Eastern United States" 12 "Washington"
 "Panama" 1
 "West Indies" 1
 "Brazil" 3
 "Sinkiang" 2
 "China" 2
 "Alaska" 2
-"Western United States" 10
+"Western United States" 10 "Los Angeles"
 "Mexico" 2
 "Midway" 0
-"Hawaiian Islands" 1 &Honolulu
+"Hawaiian Islands" 1 "Honolulu"
 "Greenland" 0
 
 :Germany
-"France" 6 &Paris
-"Italy" 6 &Rome
+"France" 6 "Paris"
+"Italy" 6 "Rome"
 "Corsica" 0
 "Sardinia" 0
 "Sicily" 0
-"Germany" 10 &Berlin
+"Germany" 10 "Berlin"
 "Balkans" 3
-"Eastern Europe" 3 &Warsaw
+"Eastern Europe" 3 "Warsaw"
 "Ukraine S. S. R." 3
 "Belorussia" 2
 "West Russia" 2
@@ -54,10 +54,10 @@
 "Finland" 1
 
 :Soviet Union
-"Karelia S. S. R." 2 &Leningrad
+"Karelia S. S. R." 2 "Leningrad"
 "Archangel" 2
-"Russia" 8 &Moscow
-"Caucasus" 4 &Stalingrad
+"Russia" 8 "Moscow"
+"Caucasus" 4 "Stalingrad"
 "Kazakh S. S. R." 2
 "Novosibirsk" 2
 "Evenki National Okrug" 1
@@ -67,10 +67,10 @@
 
 :Japan
 "Manchuria" 3
-"Kwangtung" 3 &Shanghai
+"Kwangtung" 3 "Shanghai"
 "French Indo-China" 3
 "Japan" 8 "Tokyo"
-"Philippine Islands" 3 &Manila
+"Philippine Islands" 3 "Manila"
 "Okinawa" 1
 "Wake Island" 0
 "Caroline Islands" 0
@@ -79,20 +79,3 @@
 "New Guinea" 1
 "Solomon Islands" 0
 "Formosa" 0
-
-:Neutral
-Venezuela
-Peru
-Argentina
-Spain
-Eire
-Sweden
-Switzerland
-Sahara
-Angola
-Mozambique
-Saudi Arabia
-Turkey
-Afghanistan
-Himilaya
-Mongolia

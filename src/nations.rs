@@ -35,7 +35,6 @@ pub fn name(x: Nations) -> &'static str {
         Nations::SovietUnion => "Soviet Union",
         Nations::Japan => "Japan",
         Nations::Neutral => "Neutral",
-        _ => "Unkown",
     }
 }
 pub fn parse(x: &str) -> Nations {
