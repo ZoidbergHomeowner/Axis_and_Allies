@@ -35,7 +35,7 @@
 
 "France" "Germany" "Italy" 6 7 5 13
 "Germany" "France" "Italy" "Balkans" "Eastern Europe" 5
-"Italy" "France" Germany" "Balkans" 14
+"Italy" "France" "Germany" "Balkans" 14
 "Balkans" "Italy" "Germany" "Eastern Europe" "Ukraine S. S. R." 16
 "Eastern Europe" "Belorussia" "Ukraine S. S. R." "Balkans" "Germany" "Karelia S. S. R." 5
 "Norway" "Finland" 3 6 5
